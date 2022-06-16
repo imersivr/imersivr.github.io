@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:50px;
+  padding: 25px;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+}
+
+header a {
+  color: black;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  margin: auto;
+}
+
+.main-texts h1 {
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.main {
+  width: 65%;
+}
+
+.main-texts p {
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.main-texts a {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.team {
+  background: #ffbf23;
+  padding: 90px;
+}
+
+.team-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.team-text h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: black;
+  font-size: 38px;
+}
+
+.team-text p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.projects {
+  width: 70%;
+  margin: auto;
+}
+
+.projects-text {
+  width: 60%;
+}
+
+.projects-text h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 38px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+#prj-p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.open-source {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.open-source img {
+  width: 200px;
+  height: auto;
+  margin: 90px;
+}
+
+.open-source-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%
+}
+
+.open-source-text h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 38px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.open-source-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.open-source-text a {
+  padding: 15px;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.partners {
+  background: #ffd7ef;
+  padding: 50px;
+}
+
+.partners-box {
+  width: 75%;
+  margin: auto;
+}
+
+.partners-text {
+  width: 60%;
+}
+
+.partners-text h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 38px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.partners-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.partners-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+footer {
+  padding: 30px;
+  background: #ffbf23;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-bold: bold;
+  color: black;
+}
